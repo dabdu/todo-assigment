@@ -33,9 +33,9 @@ This project is a web application built using Next.js, styled with Tailwind CSS,
 
 # Environment Variables
 
-To run this project locally, you'll need a `.env` file with Firebase configuration details.
+To run this project locally, you'll need a `.env.local` file with Firebase configuration details.
 
-You can use your own Firebase configuration values or the ones provided in the `.env` file attached to the submission email. The `.env` file should contain the following environment variables:
+You can use your own Firebase configuration values or the ones provided in the `.env.local` file attached to the submission email. The `.env` file should contain the following environment variables:
 
 - `NEXT_PUBLIC_FIREBASE_API_KEY`
 - `NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN`
@@ -53,7 +53,7 @@ To run this project locally:
 1. Clone the repository from GitHub.
 2. Install dependencies using:
    `npm install`
-3. Add the provided `.env` file to the root directory of your project.
+3. Add the provided `.env.local` file to the root directory of your project.
 4. Start the development server:
    `npm run dev`
 
